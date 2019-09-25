@@ -1,0 +1,5 @@
+.tox/
+myvenv/
+__pycache__/
+.pytest_cache/
+.git/

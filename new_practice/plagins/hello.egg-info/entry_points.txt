@@ -1,0 +1,3 @@
+[pytimed]
+hello = hello:say_hello
+

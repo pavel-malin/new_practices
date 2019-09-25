@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: foobar
+Version: 0.0.1.dev159
+Summary: UNKNOWN
+Home-page: http://pypi.python.org/pypi/foobar
+Author: Pavel Malin
+Author-email: foobar@example.org
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
