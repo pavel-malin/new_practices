@@ -1,8 +1,7 @@
+sudo: false
 language: python
 python:
  - "2.7"
  - "3.7"
-# Команда для установки зависимостей
-install: "pip3 install -r requirements.txt --use-mirrors"
-# Команда для запуска тестов
-script: pytest
+install: pip install tox-travis
+script: tox
