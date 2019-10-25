@@ -1,13 +1,13 @@
-# Using contextlib.contextmanager
+# Declaring a context manager applying yield to a value
 import contextlib
 
 
 @contextlib.contextmanager
 def MyContext():
     print("do something first")
-    yield
+    yield 42
     print("do something else")
 
 
-with MyContext():
-    print("hello world")
+with MyContext() as value:
+    print(value)
